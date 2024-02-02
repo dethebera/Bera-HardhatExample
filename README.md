@@ -21,6 +21,13 @@ npx hardhat run scripts/deploy.ts --network berachain-artio
 --- 
 # To Verify Contracts 
 
+### Installation 
+```shell
+npm install --save-dev @nomicfoundation/hardhat-verify
+```
+
+### Verify
+
 ```shell
 npx hardhat verify --network berachain-artio <0x...>  
 ```
