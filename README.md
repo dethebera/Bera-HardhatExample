@@ -1,8 +1,10 @@
 # Bera-HardhatExample
 This repo should serve as an example of the config and manual gas-override required for hardhat based contract deployments on Berachain Artio. The repo also should help you verify countracts directly via hardhat (Routescan api and configs have been provided in the repo). 
 
-## Sum-up on the changes made.
-
+## Sum-up on the changes made/required for contract deployments on Artio. 
+1. The default Hardhat `deployContract` is having issue. But crafting the deploy transaction manually with `gasLimit` and `gasPrice` specified works.
+2. Removing the gas: “auto” setting in hardhat config file.
+3. Building the transaction manually and setting a forced gas limit override (this may be more expensive gas-wise, but not significantly).
 
 ## Post fork - please do the following
 1. npm init --y    
