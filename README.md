@@ -1,5 +1,5 @@
 # Bera-HardhatExample
-This repo should serve as an example of the config and manual gas-override required for hardhat based contract deployments on Berachain Artio. 
+This repo should serve as an example of the config and manual gas-override required for hardhat based contract deployments on Berachain Artio. The repo also should help you verify countracts directly via hardhat (Routescan api and config has been shared). 
 
 ## Sum-up on the changes made. 
 
